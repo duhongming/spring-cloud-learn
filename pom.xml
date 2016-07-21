@@ -18,6 +18,7 @@
         <module>spring-cloud-1</module>
         <module>spring-cloud-config-server</module>
         <module>spring-cloud-service</module>
+        <module>cloud-eureka-server</module>
     </modules>
 
     <dependencyManagement>

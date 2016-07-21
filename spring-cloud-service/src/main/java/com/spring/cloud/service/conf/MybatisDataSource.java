@@ -25,7 +25,7 @@ public class MybatisDataSource {
     @Autowired
     private DataSourceProperties dataSourceProperties;
     //mybaits mapper xml搜索路径
-    private final static String mapperLocations="classpath:com/spring/cloud/service/dao/*.xml";
+    private final static String mapperLocations="cloud/simple/service/dao/*.xml";
 
     private org.apache.tomcat.jdbc.pool.DataSource pool;
 
