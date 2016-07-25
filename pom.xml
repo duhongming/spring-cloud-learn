@@ -19,16 +19,10 @@
         <module>spring-cloud-config-server</module>
         <module>spring-cloud-service</module>
         <module>cloud-eureka-server</module>
+        <module>cloud-simple-ui</module>
+        <module>cloud-monitor-server</module>
+        <module>cloud-hystrix-turbine</module>
     </modules>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-starter-parent</artifactId>
-                <version>Brixton.RELEASE</version>
 
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 </project>
